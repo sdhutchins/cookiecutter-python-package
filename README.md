@@ -13,3 +13,7 @@ Usage
 To start a new travisci python package:
 
 `cookiecutter gh:sdhutchins/cookiecutter-python-package`
+
+**OR**
+
+`cookiecutter https://github.com/sdhutchins/cookiecutter-python-project`
