@@ -1,8 +1,8 @@
-[![image](https://travis-ci.org/datasnakes/%7B%7Bcookiecutter.project_slug%7D%7D.svg?branch=master)](https://travis-ci.org/datasnakes/%7B%7Bcookiecutter.project_slug%7D%7D)
+[![image](https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}.svg?branch=master)](https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}})
 
-# {{cookiecutter.project\_slug}}
+# {{cookiecutter.project_slug}}
 
-{{cookiecutter.project\_short\_description}}
+{{cookiecutter.project_short_description}}
 
 ## Overview
 
@@ -28,18 +28,18 @@ View the below methiods for installing this package.
 ### Tests
 
 To run tests, type `nosetests tests/` in the
-{{cookiecutter.project\_slug}} directory.
+{{cookiecutter.project_slug}} directory.
 
 ### Author
 
-  - {{cookiecutter.full\_name}} | Github:
-    [@{{cookiecutter.github\_username}}](https://github.com/%7B%7Bcookiecutter.github_username%7D%7D)
-    | [✉](mailto:%7B%7Bcookiecutter.email%7D%7D)
+  - {{cookiecutter.full_name}} | Github:
+    [@{{cookiecutter.github\_username}}](https://github.com/{{cookiecutter.github_username}})
+    | [✉](mailto:{{cookiecutter.email}})
 
 If you would like to contribute to this package, install the package in
 development mode, and check out our [contributing
-guidelines](https://github.com/%7B%7Bcookiecutter.github_username%7D%7D/%7B%7Bcookiecutter.project_slug%7D%7D/blob/master/CONTRIBUTING.rst).
+guidelines](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/blob/master/CONTRIBUTING.rst).
 
 ### License
 
-[MIT](https://github.com/%7B%7Bcookiecutter.github_username%7D%7D/%7B%7Bcookiecutter.project_slug%7D%7D/blob/master/LICENSE)
+[MIT](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/blob/master/LICENSE)
