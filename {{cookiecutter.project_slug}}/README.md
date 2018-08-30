@@ -33,7 +33,7 @@ To run tests, type `nosetests tests/` in the
 ### Author
 
   - {{cookiecutter.full_name}} | Github:
-    [@{{cookiecutter.github\_username}}](https://github.com/{{cookiecutter.github_username}})
+    [@{{cookiecutter.github_username}}](https://github.com/{{cookiecutter.github_username}})
     | [✉](mailto:{{cookiecutter.email}})
 
 If you would like to contribute to this package, install the package in
