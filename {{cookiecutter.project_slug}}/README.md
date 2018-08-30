@@ -1,5 +1,6 @@
 [![image](https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}.svg?branch=master)](https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}})
 [![This package is currently under development.](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}})
+[![PyPI version](https://badge.fury.io/py/{{cookiecutter.python_package_name}}.svg)](https://badge.fury.io/py/{{cookiecutter.python_package_name}}) 
 
 # {{cookiecutter.project_slug}}
 
