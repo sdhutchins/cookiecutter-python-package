@@ -34,9 +34,9 @@ To run tests, type `nosetests tests/` in the
 
 ## Author
 
-{{cookiecutter.full_name}} | Github:
+{{cookiecutter.full_name}} · Github:
     [@{{cookiecutter.github_username}}](https://github.com/{{cookiecutter.github_username}})
-    | [:email:](mailto:{{cookiecutter.email}})
+    · [{{cookiecutter.email}}](mailto:{{cookiecutter.email}})
 
 ## Contributing
 
