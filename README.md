@@ -1,6 +1,6 @@
-# cookiecutter-python-project
+# cookiecutter-python-package
 
-A simple cookiecutter python project for personal usage.
+A simple cookiecutter python package for personal usage.
 
 ## Requirements
 
