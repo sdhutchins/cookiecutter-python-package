@@ -11,13 +11,12 @@ from setuptools import setup, find_packages
 from codecs import open  # To use a consistent encoding
 from os import path
 import os
-import sys
 
 # Set the home path of the setup script/package
 __version__ = '{{cookiecutter.version}}'
 project_path = os.path.dirname(os.path.abspath(__file__))
 project_name = os.path.basename(project_path)
-project_url = 'https://github.com/{{cookiecutter.github_url_repo_name}}.lower().replace(' ', '-')/' + project_name
+project_url = 'https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_url_repo_name}}.lower().replace(' ', '-')/='
 
 
 def readme():
@@ -26,8 +25,6 @@ def readme():
         return f.read()
 
 # Setup the package by adding information to these parameters
-
-
 setup(
     name=project_name,
     author='{{cookiecutter.full_name}}',
@@ -36,7 +33,7 @@ setup(
     version=__version__,
     long_description=readme(),
     url=project_url,
-    license='MIT',
+    license='{{cookiecutter.license}}',
     keywords='{{cookiecutter.keywords}}',
     classifiers=[
         'Development Status :: 3 - Alpha',
