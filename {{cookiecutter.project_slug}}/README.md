@@ -4,7 +4,7 @@
 
 # {{cookiecutter.project_slug}}
 
-{{cookiecutter.project_short_description}}
+{{cookiecutter.project_short_description}}.
 
 ## Background
 
