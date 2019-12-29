@@ -1,33 +1,27 @@
-====================================
-Contributing to this project
-====================================
+# Contributing to this project
 
 Thanks for your desire to contribute to this project.
 
-Preparing your Fork
-^^^^^^^^^^^^^^^^^^^
-1. Hit 'fork' on Github, creating e.g. ``yourname/{{cookiecutter.project_slug}}``.
-2. Clone your project: ``git clone git@github.com:yourname/{{cookiecutter.project_slug}}``.
-3. Create a branch: ``cd {{cookiecutter.project_slug}}; git checkout -b foo-the-bars 1.3``.
+## Preparing your Fork
 
-Development Mode Installation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1. Change to the project repository on your machine: ``cd {{cookiecutter.project_slug}}``
-2. Install in development mode: ``pip install -e .``
+1. Hit 'fork' on Github, creating e.g. `yourname/{{cookiecutter.project_slug}}`.
+2. Clone your project: `git clone git@github.com:yourname/{{cookiecutter.project_slug}}`.
+3. Create a branch: `cd {{cookiecutter.project_slug}}; git checkout -b foo-the-bars 1.3`.
 
+## Development Mode Installation
 
-Making your Changes
-^^^^^^^^^^^^^^^^^^^
-1. Add your contributions
-2. Run tests and make sure they pass. (We use unittest.)
-3. Commit your changes: ``git commit -m "Foo the bars"``
+1. Change to the project repository on your machine: `cd {{cookiecutter.project_slug}}`
+2. Install in development mode: `pip install -e .`
 
+## Making your Changes
 
+1. Add your contributions.
+2. Run tests and make sure they pass. (I use nose/unittest.)
+3. Commit your changes: `git commit -m "Foo the bars"`
 
-Creating Pull Requests
-^^^^^^^^^^^^^^^^^^^^^^
+## Creating Pull Requests
 
-1. Push your commit to get it back up to your fork: ``git push origin HEAD``
+1. Push your commit to get it back up to your fork: `git push origin HEAD`
 2. Visit Github, click handy "Pull request" button that it will make upon
    noticing your new branch.
 3. In the description field, write down issue number (if submitting code fixing
@@ -36,8 +30,7 @@ Creating Pull Requests
 4. Hit 'submit'! And please be patient - we will get to you when
    we can.
 
-Version control branching
--------------------------
+## Version control branching
 
 * Always **make a new branch** for your work, no matter how small. This makes
   it easy for others to take just that one set of changes from your repository,
@@ -68,8 +61,7 @@ Version control branching
           sidelined for a while, **make sure you rebase or merge to latest
           master** to ensure a speedier resolution.
 
-Code formatting
----------------
+## Code formatting
 
 * **Follow the style you see used in the primary repository**! Consistency with
   the rest of the project always trumps other considerations.
@@ -77,8 +69,7 @@ Code formatting
   <http://www.python.org/dev/peps/pep-0008/>`_ guidelines (though many have
   minor deviations depending on the lead maintainers' preferences.)
 
-Documentation isn't optional
-----------------------------
+## Documentation isn't optional
 
 It's not! Patches without documentation will be returned to sender.  By
 "documentation" we mean:
@@ -89,8 +80,7 @@ It's not! Patches without documentation will be returned to sender.  By
 * New features should ideally include updates to **prose documentation**,
   including useful example code snippets.
 
-Tests aren't optional
----------------------
+## Tests aren't optional
 
 Any bugfix that doesn't include a test proving the existence of the bug being
 fixed, may be suspect.  Ditto for new features that can't prove they actually
@@ -99,7 +89,5 @@ work.
 We've found that test-first development really helps make features better
 architected and identifies potential edge cases earlier instead of later.
 Writing tests before the implementation is strongly encouraged.
-
-
 
 Thanks to https://contribution-guide-org.readthedocs.io/ for the general guide.
