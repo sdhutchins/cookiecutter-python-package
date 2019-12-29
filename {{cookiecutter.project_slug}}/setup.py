@@ -16,13 +16,14 @@ import os
 __version__ = '{{cookiecutter.version}}'
 project_path = os.path.dirname(os.path.abspath(__file__))
 project_name = os.path.basename(project_path)
-project_url = 'https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_url_repo_name}}.lower().replace(' ', '-')/='
+project_url = 'https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_url_repo_name}}'
 
 
 def readme():
     """Get the long description from the README file."""
-    with open(path.join(project_path, 'README.rst'), encoding='utf-8') as f:
+    with open(path.join(project_path, 'README.md'), encoding='utf-8') as f:
         return f.read()
+
 
 # Setup the package by adding information to these parameters
 setup(
