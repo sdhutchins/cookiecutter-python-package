@@ -2,8 +2,9 @@ sudo: false
 language: python
 cache: pip
 python:
-  - "3.5"
-  - "3.6"
+  - "3.8"
+  - "3.9"
+  - "3.10"
 notifications:
   email: false
 # command to install dependencies
@@ -11,4 +12,5 @@ install:
   - "pip install --upgrade pip setuptools wheel"
   - "pip install -r requirements.txt"
 # command to run nosetests
-script: nosetests tests/ --verbosity=3
+script:
+  - python -m pytest ./test

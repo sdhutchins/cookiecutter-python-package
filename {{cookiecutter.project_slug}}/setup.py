@@ -40,7 +40,9 @@ setup(
         'Development Status :: 3 - Alpha',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Framework :: Cookiecutter'
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
     # Packages will be automatically found if not in this list.
     packages=find_packages(exclude=['docs', 'tests']),
@@ -48,6 +50,6 @@ setup(
     entry_points={
     },
     zip_safe=False,
-    test_suite='nose.collector',
-    tests_require=['nose']
+    test_suite='pytest',
+    python_requires = ">=3.7"
 )

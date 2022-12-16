@@ -10,7 +10,7 @@
 
 ## Installation
 
-View the below methiods for installing this package.
+View the below methods for installing this package.
 
 ### PyPi
 
@@ -41,7 +41,7 @@ To run tests, type `nosetests tests/` in the
 
 If you would like to contribute to this package, install the package in
 development mode, and check out our [contributing
-guidelines](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_url_repo_name}}/blob/master/CONTRIBUTING.rst).
+guidelines](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_url_repo_name}}/blob/master/CONTRIBUTING.md).
 
 ## License
 
